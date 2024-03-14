@@ -1,0 +1,7 @@
+App Setup
+
+mkdir weather-app
+cd weather-app
+npm init -y
+npm install express mysql body-parser cors
+
