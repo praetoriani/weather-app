@@ -68,10 +68,12 @@ class WeatherInfoCard extends HTMLElement {
     connectedCallback() {
         // Abrufen der Attribut-Werte der Komponente
         this.CatchAttributes();
-        // Komponente rendern
-        this.RenderComponent();
-        // RESERVED FOR LATER USE
-        this.addEventListeners();
+        if(this.BugSniffer === false) {
+            // Komponente rendern
+            this.RenderComponent();
+        } else {
+            console.error("Komponente WeatherInfoCard konnte nicht erstellt werden.");
+        }
     }
 
     // The RenderComponent method will generate
