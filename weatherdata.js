@@ -1,6 +1,6 @@
 // Globale Variablen
 // OpenWeatherMap API-Schlüssel
-const apiKey = "";
+const apiKey = "21b16efc49537cee3968102a84a92750";
 // URL:PORT auf der der Node-Server (server.js) läuft
 const nodeServer = 'http://localhost:3000/'
 // Globales Objekt, das Informationen zu mehreren Städten speichert

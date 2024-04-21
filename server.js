@@ -9,8 +9,8 @@ const port = 3000;
 // MySQL-Datenbankverbindung konfigurieren
 const db = mysql.createConnection({
     host: 'localhost',      // Der Host, auf dem der MySQL-Server läuft
-    user: '',               // Hier muss ein MySQL-Benutzernamen angegeben werden
-    password: '',           // Hier muss das MySQL-Passwort für den Benutzer angegeben werden
+    user: 'sudo',           // Hier muss ein MySQL-Benutzernamen angegeben werden
+    password: 'Q1yW2xE3c',  // Hier muss das MySQL-Passwort für den Benutzer angegeben werden
     database: 'WeatherData' // Die Datenbank 'WeatherData' muss existieren
 });
 

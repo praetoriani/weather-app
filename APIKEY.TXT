@@ -1,0 +1,4 @@
+API KEY
+Openweathermap
+wdata
+21b16efc49537cee3968102a84a92750
